@@ -1,0 +1,26 @@
+{
+    "name": "lesscode-h5-maker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.1.2",
+        "vite": "^6.0.3"
+    },
+    "dependencies": {
+        "@element-plus/icons-vue": "^2.3.1",
+        "dexie": "^4.0.8",
+        "element-plus": "^2.8.1",
+        "lodash": "^4.17.21",
+        "vite-plugin-svgr": "^4.2.0",
+        "vue": "^3.4.35",
+        "vue-router": "^4.4.2"
+    }
+}

@@ -1,0 +1,32 @@
+# common
+.*
+!.husky
+!.storybook
+!.*ignore
+!.*.yml
+!.*.yaml
+!.*rc
+!.*rc.*
+!.env
+!.env.*
+*.log*
+.npmrc
+
+# dev
+
+**/node_modules
+
+# generated
+
+*.d.ts
+!env.d.ts
+**/*.lock
+**/*-lock.json
+**/*-lock.yaml
+**/dist/
+**/dist-pc/
+**/build/
+**/coverage/
+
+.DS_Store
+**/script-publish/
